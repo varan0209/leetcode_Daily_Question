@@ -26,6 +26,7 @@ hii my name is varan
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -34,9 +35,18 @@ hii my name is varan
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 <!---LeetCode Topics End-->
