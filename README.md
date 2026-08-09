@@ -17,6 +17,7 @@ hii my name is varan
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [3345-smallest-divisible-digit-product-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Enumeration
@@ -48,10 +49,12 @@ hii my name is varan
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [3731-find-missing-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -61,4 +64,20 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3731-find-missing-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3731-find-missing-elements/) | Easy |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
+## Zero-Sum Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 <!---LeetCode Topics End-->
