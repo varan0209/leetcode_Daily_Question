@@ -19,6 +19,7 @@ hii my name is varan
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 | [3345-smallest-divisible-digit-product-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Enumeration
@@ -39,6 +40,7 @@ hii my name is varan
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Number Theory
@@ -59,6 +61,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
@@ -81,6 +84,7 @@ hii my name is varan
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -90,15 +94,18 @@ hii my name is varan
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 ## Nim Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 ## Sprague–Grundy Theorem
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -120,4 +127,8 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 <!---LeetCode Topics End-->
