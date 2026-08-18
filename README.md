@@ -65,6 +65,7 @@ hii my name is varan
 | [2213-longest-substring-of-one-repeating-character](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3731-find-missing-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
@@ -73,6 +74,7 @@ hii my name is varan
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
 | [3731-find-missing-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
