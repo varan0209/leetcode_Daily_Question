@@ -1,0 +1,21 @@
+from typing import List
+
+class Solution:
+    def largestInteger(self, nums: List[int], k: int) -> int:
+        count = {}
+
+        # Check every subarray of size k
+        for i in range(len(nums) - k + 1):
+            subarray = set(nums[i:i + k])
+
+            for x in subarray:
+                count[x] = count.get(x, 0) + 1
+
+        # Find the largest number appearing in exactly one subarray
+        ans = -1
+
+        for x in count:
+            if count[x] == 1:
+                ans = max(ans, x)
+
+        return ans
