@@ -20,6 +20,7 @@ hii my name is varan
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
 | [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3345-smallest-divisible-digit-product-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Enumeration
@@ -47,6 +48,7 @@ hii my name is varan
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -68,6 +70,7 @@ hii my name is varan
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3731-find-missing-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3731-find-missing-elements/) | Easy |
@@ -133,6 +136,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -142,4 +146,12 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 <!---LeetCode Topics End-->
