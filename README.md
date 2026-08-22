@@ -23,6 +23,7 @@ hii my name is varan
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3345-smallest-divisible-digit-product-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
