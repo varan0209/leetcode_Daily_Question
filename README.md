@@ -19,6 +19,7 @@ hii my name is varan
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [1927-sum-game](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3345-smallest-divisible-digit-product-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
@@ -31,6 +32,7 @@ hii my name is varan
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1927-sum-game](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1927-sum-game/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
@@ -43,6 +45,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [1927-sum-game](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
@@ -104,6 +107,7 @@ hii my name is varan
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
+| [1927-sum-game](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
