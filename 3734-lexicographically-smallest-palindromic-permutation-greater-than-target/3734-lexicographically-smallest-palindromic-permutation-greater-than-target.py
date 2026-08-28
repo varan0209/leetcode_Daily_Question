@@ -1,27 +1,64 @@
+from collections import Counter
+
 class Solution:
     def lexPalindromicPermutation(self, s: str, target: str) -> str:
-        n, cnt = len(s), Counter(s)
-        odds = [c for c, v in cnt.items() if v % 2]
-        if len(odds) > n % 2:
+        n = len(s)
+        cnt = Counter(s)
+        
+        odd_chars = [c for c, v in cnt.items() if v % 2 == 1]
+        if len(odd_chars) > 1:
             return ""
-
-        mid, h = (odds[0] if odds else ""), n // 2
-        pool = Counter({c: v // 2 for c, v in cnt.items()})
-        build = lambda half: half + mid + half[::-1]
-        rest = lambda: "".join(c * pool[c] for c in sorted(pool))
-
-        stop = 0                                     # longest prefix of target[:h] the pool can match
-        while stop < h and pool[target[stop]]:
-            pool[target[stop]] -= 1
-            stop += 1
-
-        if stop == h and (p := build(target[:h])) > target:
-            return p                                 # half forced -> exactly one candidate
-
-        for i in range(stop, -1, -1):                # walk back to the last raisable position
-            if i < h and (c := min((x for x in pool if x > target[i] and pool[x]), default="")):
-                pool[c] -= 1
-                return build(target[:i] + c + rest())
-            if i:
-                pool[target[i - 1]] += 1             # un-consume, restoring the pool for i-1
+        if len(odd_chars) == 1 and n % 2 == 0:
+            return ""
+        if len(odd_chars) == 0 and n % 2 == 1:
+            return ""
+        
+        mid_char = odd_chars[0] if odd_chars else ""
+        half_len = n // 2
+        half_counts = {c: v // 2 for c, v in cnt.items()}
+        
+        # Try to match target's first half exactly (greedy character-by-character)
+        counts_copy = half_counts.copy()
+        max_prefix = 0
+        for i in range(half_len):
+            c = target[i]
+            if counts_copy.get(c, 0) > 0:
+                counts_copy[c] -= 1
+                max_prefix = i + 1
+            else:
+                break
+        
+        # Case A: H == target[:half_len] exactly (uses ALL of half_counts, since
+        # a full greedy match over half_len positions must consume everything)
+        if max_prefix == half_len:
+            H = target[:half_len]
+            candidate_A = H + mid_char + H[::-1]
+            if candidate_A > target:
+                return candidate_A
+        
+        # Case B: find the smallest H strictly greater than target[:half_len]
+        counts = counts_copy.copy()
+        for i in range(max_prefix, -1, -1):
+            if i < half_len:
+                best_char = None
+                for ch in sorted(k for k, v in counts.items() if v > 0):
+                    if ch > target[i]:
+                        best_char = ch
+                        break
+                if best_char:
+                    new_counts = counts.copy()
+                    new_counts[best_char] -= 1
+                    left = list(target[:i]) + [best_char]
+                    remaining = []
+                    for ch2 in sorted(k for k, v in new_counts.items() if v > 0):
+                        remaining.extend([ch2] * new_counts[ch2])
+                    left.extend(remaining)
+                    H = ''.join(left)
+                    candidate = H + mid_char + H[::-1]
+                    if candidate > target:
+                        return candidate
+            
+            if i > 0:
+                counts[target[i - 1]] = counts.get(target[i - 1], 0) + 1
+        
         return ""
