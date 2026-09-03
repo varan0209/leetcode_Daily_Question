@@ -1,15 +1,15 @@
 class Solution:
     def uniformArray(self, nums1: list[int]) -> bool:
-        vals = sorted(nums1)
-        n = len(vals)
-        T = vals[0] % 2          # forced target parity = parity of the minimum
-        seen_odd = (T == 1)      # has an earlier (smaller) odd element appeared?
+        odd = inf
+        even = inf
+        
+        for n in nums1:
+            if n % 2:
+                odd = min(odd, n)
+            else:
+                even = min(even, n)
 
-        for k in range(1, n):
-            q = vals[k] % 2
-            if q != T and not seen_odd:
-                return False
-            if q == 1:
-                seen_odd = True
+        if odd == inf or even == inf:
+            return True
 
-        return True
+        return odd < even
