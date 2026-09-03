@@ -1,15 +1,12 @@
 class Solution:
     def uniformArray(self, nums1: list[int]) -> bool:
-        odd = inf
-        even = inf
-        
-        for n in nums1:
-            if n % 2:
-                odd = min(odd, n)
-            else:
-                even = min(even, n)
-
-        if odd == inf or even == inf:
+        if min(nums1) % 2:
             return True
 
-        return odd < even
+        f = True
+        for num in nums1:
+            if num % 2:
+                f = False
+                break
+        
+        return f
