@@ -1,20 +1,13 @@
-from collections import Counter
-from typing import List
-
+from itertools import permutations
 class Solution:
     def totalNumbers(self, digits: List[int]) -> int:
-        counts = Counter(digits)
-        found = set()
-
-        for hundreds in range(1, 10):
-            if counts[hundreds] == 0:
+        result = []
+        count = set()
+        for p in permutations(digits, 3):
+            if p[0] == 0:
                 continue
-            for tens in range(0, 10):
-                if counts[tens] == 0 or (tens == hundreds and counts[tens] < 2):
-                    continue
-                for units in range(0, 10, 2):
-                    need = Counter([hundreds, tens, units])
-                    if all(counts[d] >= need[d] for d in need):
-                        found.add(hundreds * 100 + tens * 10 + units)
-
-        return len(found)
+            result.append(int("".join(map(str, p))))
+        for i in range(len(result)):
+            if result[i] % 2 == 0:
+                count.add(result[i])
+        return len(count)
