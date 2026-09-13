@@ -89,6 +89,7 @@ hii my name is varan
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0835-image-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0835-image-overlap/) | Medium |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
@@ -219,6 +220,7 @@ hii my name is varan
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0835-image-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0835-image-overlap/) | Medium |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
