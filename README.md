@@ -19,6 +19,7 @@ hii my name is varan
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0836-rectangle-overlap/) | Easy |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
@@ -234,4 +235,8 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0836-rectangle-overlap/) | Easy |
 <!---LeetCode Topics End-->
