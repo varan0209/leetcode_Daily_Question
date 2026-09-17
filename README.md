@@ -87,6 +87,7 @@ hii my name is varan
 | [0115-distinct-subsequences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0115-distinct-subsequences/) | Hard |
 | [0940-distinct-subsequences-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
@@ -99,6 +100,7 @@ hii my name is varan
 | [0835-image-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0835-image-overlap/) | Medium |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
 | [2029-stone-game-ix](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2029-stone-game-ix/) | Medium |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
@@ -123,6 +125,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
@@ -181,6 +184,7 @@ hii my name is varan
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
@@ -211,6 +215,7 @@ hii my name is varan
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 ## Combinatorics
