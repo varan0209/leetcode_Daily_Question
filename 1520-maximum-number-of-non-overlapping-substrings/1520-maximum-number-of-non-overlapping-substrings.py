@@ -1,37 +1,26 @@
 class Solution:
-    def maxNumOfSubstrings(self, s: str) -> list[str]:
+    def maxNumOfSubstrings(self, s: str) -> List[str]:
         n = len(s)
-        first = {}
-        last = {}
-        for i, ch in enumerate(s):
-            if ch not in first:
-                first[ch] = i
-            last[ch] = i
-
-        intervals = []
-        for i in range(n):
-            ch = s[i]
-            if first[ch] != i:
-                continue
-            end = last[ch]
-            j = i
-            valid = True
-            while j <= end:
-                c2 = s[j]
-                if first[c2] < i:
-                    valid = False
-                    break
-                if last[c2] > end:
-                    end = last[c2]
-                j += 1
-            if valid:
-                intervals.append((i, end))
-
-        intervals.sort(key=lambda x: x[1])
+        counts = Counter(s)
+        first = {k: s.find(k) for k in counts}
+        last = {k: s.rfind(k) for k in counts}
+        
         res = []
-        last_end = -1
-        for st, en in intervals:
-            if st > last_end:
-                res.append(s[st:en + 1])
-                last_end = en
+        queue = deque()
+
+        for k in counts:
+            queue.appendleft([first[k], last[k], counts[k]])
+            left, right, total = inf, -inf, 0
+
+            for x, y, z in queue:
+                total += z
+                left = min(left, x)
+                right = max(right, y)
+                if total == right - left + 1:
+                    break
+
+            if total == right - left + 1:
+                res.append(s[left:right+1])
+                queue = deque()
+
         return res
