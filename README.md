@@ -21,6 +21,7 @@ hii my name is varan
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0836-rectangle-overlap/) | Easy |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
+| [1401-circle-and-rectangle-overlapping](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1510-stone-game-iv](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1510-stone-game-iv/) | Hard |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
@@ -256,4 +257,5 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0836-rectangle-overlap/) | Easy |
+| [1401-circle-and-rectangle-overlapping](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 <!---LeetCode Topics End-->
