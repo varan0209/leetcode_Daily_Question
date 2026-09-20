@@ -55,6 +55,7 @@ hii my name is varan
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
+| [3498-reverse-degree-of-a-string](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3720-lexicographically-smallest-permutation-greater-than-target/) | Medium |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 ## Backtracking
@@ -217,6 +218,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3498-reverse-degree-of-a-string](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
