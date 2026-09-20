@@ -1,14 +1,9 @@
 class Solution:
     def reverseDegree(self, s: str) -> int:
-        n = len(s)
-        total = 123 * n * (n + 1) // 2
-        
-        sub = 0
-        idx = 1
-        _ord = ord 
-        
+
+        ans, idx = 0, 1
         for ch in s:
-            sub += _ord(ch) * idx
-            idx += 1
-            
-        return total - sub
+            ans+= (123 - ord(ch)) * idx
+            idx+= 1
+
+        return ans   
