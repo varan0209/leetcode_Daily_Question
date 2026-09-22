@@ -31,6 +31,7 @@ hii my name is varan
 | [3345-smallest-divisible-digit-product-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 | [3524-find-x-value-of-array-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3524-find-x-value-of-array-i/) | Medium |
+| [3525-find-x-value-of-array-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 | [3870-count-commas-in-range](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3870-count-commas-in-range/) | Easy |
 | [3871-count-commas-in-range-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3871-count-commas-in-range-ii/) | Medium |
@@ -120,6 +121,7 @@ hii my name is varan
 | [3471-find-the-largest-almost-missing-integer](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3524-find-x-value-of-array-i/) | Medium |
+| [3525-find-x-value-of-array-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3718-smallest-missing-multiple-of-k](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3718-smallest-missing-multiple-of-k/) | Easy |
@@ -201,6 +203,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
+| [3525-find-x-value-of-array-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
