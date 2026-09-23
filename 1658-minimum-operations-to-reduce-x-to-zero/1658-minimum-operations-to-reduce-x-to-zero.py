@@ -1,22 +1,27 @@
 class Solution:
-    def minOperations(self, nums: list[int], x: int) -> int:
-        total = sum(nums)
-        target = total - x
+    def minOperations(self, nums: List[int], k: int) -> int:
+
+        target = sum(nums) - k
+        n = len(nums)
+
         if target < 0:
             return -1
+
         if target == 0:
-            return len(nums)
+            return n
 
-        n = len(nums)
-        best_len = -1
-        left = 0
-        curr = 0
-        for right in range(n):
-            curr += nums[right]
-            while curr > target and left <= right:
-                curr -= nums[left]
-                left += 1
-            if curr == target:
-                best_len = max(best_len, right - left + 1)
+        max_len = 0
+        total = 0
+        i = 0
 
-        return n - best_len if best_len != -1 else -1
+        for j in range(n):
+            total += nums[j]
+
+            while total > target and i <= j:
+                total -= nums[i]
+                i += 1
+
+            if total == target:
+                max_len = max(max_len, j - i + 1)
+
+        return -1 if max_len == 0 else n - max_len
