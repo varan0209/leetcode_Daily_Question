@@ -1,36 +1,34 @@
 class Solution:
-    def braceExpansionII(self, expression: str) -> list[str]:
-
-        def parse_union(s, i):
-            result = set()
-            while True:
-                part, i = parse_concat(s, i)
-                result |= part
-                if i < len(s) and s[i] == ',':
-                    i += 1
-                    continue
-                break
-            return result, i
-
-        def parse_concat(s, i):
-            sets = []
-            while i < len(s) and s[i] not in ',}':
+    def braceExpansionII(self, expression: str) -> List[str]:
+        def build(s):
+            parts = set()
+            curr = {""}
+            i = 0
+            while i < len(s):
                 if s[i] == '{':
-                    inner, i = parse_union(s, i + 1)
-                    i += 1  # skip closing brace
-                    sets.append(inner)
-                else:
-                    sets.append({s[i]})
+                    j = i
+                    depth = 0
+
+                    while True:
+                        if s[j] == '{': depth -= 1
+                        elif s[j] == '}': depth += 1
+                        if depth == 0: break
+                        j += 1
+                    
+                    options = build(s[i + 1: j])
+                    curr = {a + b for a in curr for b in options}
+                    i = j + 1
+                
+                elif s[i] == ',':
+                    parts |= curr
+                    curr = {""}
                     i += 1
-
-            result = {''}
-            for st in sets:
-                new_result = set()
-                for a in result:
-                    for b in st:
-                        new_result.add(a + b)
-                result = new_result
-            return result, i
-
-        words, _ = parse_union(expression, 0)
-        return sorted(words)
+                
+                else:
+                    curr = {x + s[i] for x in curr}
+                    i += 1
+            
+            parts |= curr
+            return parts
+        
+        return sorted(build(expression))
