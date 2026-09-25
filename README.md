@@ -10,6 +10,7 @@ hii my name is varan
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 | [3310-remove-methods-from-project](https://github.com/varan0209/leetcode_python_cp/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## Graph Theory
@@ -50,6 +51,7 @@ hii my name is varan
 | ------- | ------- |
 | [0115-distinct-subsequences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0115-distinct-subsequences/) | Hard |
 | [0940-distinct-subsequences-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0940-distinct-subsequences-ii/) | Hard |
+| [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [1927-sum-game](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1927-sum-game/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
@@ -64,6 +66,7 @@ hii my name is varan
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
@@ -136,6 +139,7 @@ hii my name is varan
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1386-cinema-seat-allocation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
@@ -152,6 +156,7 @@ hii my name is varan
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
@@ -273,4 +278,8 @@ hii my name is varan
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0836-rectangle-overlap/) | Easy |
 | [1401-circle-and-rectangle-overlapping](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 <!---LeetCode Topics End-->
