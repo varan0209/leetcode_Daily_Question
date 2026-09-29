@@ -5,39 +5,51 @@ class Solution(object):
         :rtype: bool
         """
         m, n = len(grid), len(grid[0])
-        if (m + n - 1) % 2 != 0 or grid[0][0] == ')' or grid[m-1][n-1] == '(':
+        
+        # Optimization: The path length is always m + n - 1. 
+        # A valid parentheses string must have an even length.
+        if (m + n - 1) % 2 != 0:
             return False
-
-        max_bal = m + n
-        dp = [[None] * n for _ in range(m)]
-
-        def delta(i, j):
-            return 1 if grid[i][j] == '(' else -1
-
-        dp[0][0] = [False] * (max_bal + 1)
-        dp[0][0][1] = True  # already know grid[0][0] == '('
-
-        for i in range(m):
-            for j in range(n):
-                if i == 0 and j == 0:
-                    continue
-                cur = [False] * (max_bal + 1)
-                d = delta(i, j)
-                sources = []
-                if i > 0 and dp[i-1][j] is not None:
-                    sources.append(dp[i-1][j])
-                if j > 0 and dp[i][j-1] is not None:
-                    sources.append(dp[i][j-1])
-                any_set = False
-                for src in sources:
-                    for b in range(max_bal + 1):
-                        if src[b]:
-                            nb = b + d
-                            if 0 <= nb <= max_bal:
-                                cur[nb] = True
-                                any_set = True
-                dp[i][j] = cur if any_set else None
-
-        if dp[m-1][n-1] is None:
+            
+        # Optimization: A valid path must start with '(' and end with ')'
+        if grid[0][0] == ')' or grid[m-1][n-1] == '(':
             return False
-        return dp[m-1][n-1][0]
+            
+        memo = {}
+        
+        def dfs(r, c, bal):
+            # Account for the current cell's parenthesis
+            if grid[r][c] == '(':
+                bal += 1
+            else:
+                bal -= 1
+                
+            # If closed parentheses exceed open ones, it's invalid
+            if bal < 0:
+                return False
+                
+            # Pruning: If the remaining steps are fewer than the open balance, 
+            # we can never balance it back to 0.
+            remaining_steps = (m - 1 - r) + (n - 1 - c)
+            if bal > remaining_steps:
+                return False
+                
+            # Base Case: Reached the bottom-right corner
+            if r == m - 1 and c == n - 1:
+                return bal == 0
+                
+            state = (r, c, bal)
+            if state in memo:
+                return memo[state]
+                
+            # Explore moving down and moving right
+            res = False
+            if r + 1 < m:
+                res = res or dfs(r + 1, c, bal)
+            if c + 1 < n:
+                res = res or dfs(r, c + 1, bal)
+                
+            memo[state] = res
+            return res
+            
+        return dfs(0, 0, 0)
