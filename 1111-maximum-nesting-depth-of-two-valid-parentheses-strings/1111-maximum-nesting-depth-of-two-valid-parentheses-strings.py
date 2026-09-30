@@ -1,16 +1,17 @@
 class Solution(object):
     def maxDepthAfterSplit(self, seq):
-        """
-        :type seq: str
-        :rtype: List[int]
-        """
-        depth = 0
-        answer = []
-        for ch in seq:
-            if ch == '(':
-                depth += 1
-                answer.append(depth % 2)
+        l=len(seq)
+        res=[]
+        count=0
+        for i in range(l):
+            if seq[i]=='(':
+                count=count+1
+                res.append(count%2)
             else:
-                answer.append(depth % 2)
-                depth -= 1
-        return answer
+                res.append(count%2)
+                count=count-1
+        return res
+        # """
+        # :type seq: str
+        # :rtype: List[int]
+        # """
