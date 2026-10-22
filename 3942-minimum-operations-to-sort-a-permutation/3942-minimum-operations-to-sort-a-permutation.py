@@ -1,24 +1,20 @@
-
 class Solution(object):
     def minOperations(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         n = len(nums)
-        zero_idx = nums.index(0)
+        if len(nums)==0:
+            return -1
+        if len(nums)==1:
+            return 0
+        pos = nums.index(0)
+        arr = nums[pos:]+nums[:pos]
 
-        ans = float('inf')
+        if arr == list(range(n)):
+            return min(pos, n-pos+2)
 
-        # Case 1: Sort using rotations only
-        if all(nums[(zero_idx + j) % n] == j for j in range(n)):
-            ans = min(ans, zero_idx, n - zero_idx + 2)
-
-        # Case 2: Sort using reversal and rotations
-        rev = nums[::-1]
-        rev_zero_idx = n - 1 - zero_idx
-
-        if all(rev[(rev_zero_idx + j) % n] == j for j in range(n)):
-            ans = min(
-                ans,
-                rev_zero_idx + 1,
-                n - rev_zero_idx + 1
-            )
-
-        return ans if ans != float('inf') else -1
+        if arr == [0]+list(range(n-1,0,-1)):
+            return min(n-pos,pos+2)
+        return -1
