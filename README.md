@@ -182,6 +182,7 @@ hii my name is varan
 | [3886-sum-of-sortable-integers](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3903-smallest-stable-index-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3904-smallest-stable-index-ii/) | Medium |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
