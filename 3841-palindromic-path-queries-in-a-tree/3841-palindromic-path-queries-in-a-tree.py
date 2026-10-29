@@ -1,99 +1,136 @@
-class Solution(object):
+class Solution:
     def palindromePath(self, n, edges, s, queries):
-        """
-        :type n: int
-        :type edges: List[List[int]]
-        :type s: str
-        :type queries: List[str]
-        :rtype: List[bool]
-        """
-        adj = [[] for _ in range(n)]
+        graph = [[] for _ in range(n)]
         for u, v in edges:
-            adj[u].append(v)
-            adj[v].append(u)
+            graph[u].append(v)
+            graph[v].append(u)
 
-        chars = [ord(c) - 97 for c in s]
-        LOG = max(1, (n - 1).bit_length())
-        tin = [0] * n
-        tout = [0] * n
+        parent = [-1] * n
         depth = [0] * n
-        P0 = [0] * n                       # root-to-node parity mask (inclusive), initial string
-        up = [[0] * n for _ in range(LOG)]  # up[k][v] = 2^k-th ancestor (root points to itself)
+        order = [0]
+        parent[0] = 0
 
-        # iterative DFS for Euler tour
-        timer = 0
-        P0[0] = 1 << chars[0]
-        stack = [(0, -1, 0)]
-        while stack:
-            v, par, state = stack.pop()
-            if state == 0:
-                tin[v] = timer
-                timer += 1
-                up[0][v] = par if par >= 0 else v
-                stack.append((v, par, 1))
-                for w in adj[v]:
-                    if w != par:
-                        depth[w] = depth[v] + 1
-                        P0[w] = P0[v] ^ (1 << chars[w])
-                        stack.append((w, v, 0))
+        for node in order:
+            for neighbor in graph[node]:
+                if neighbor == parent[node]:
+                    continue
+                parent[neighbor] = node
+                depth[neighbor] = depth[node] + 1
+                order.append(neighbor)
+
+        subtree_size = [1] * n
+        heavy_child = [-1] * n
+
+        for node in reversed(order[1:]):
+            subtree_size[parent[node]] += subtree_size[node]
+            parent_node = parent[node]
+
+            if (
+                heavy_child[parent_node] == -1
+                or subtree_size[node] > subtree_size[heavy_child[parent_node]]
+            ):
+                heavy_child[parent_node] = node
+
+        head = [0] * n
+        position = [0] * n
+        current_position = 0
+        chain_stack = [(0, 0)]
+
+        while chain_stack:
+            node, chain_head = chain_stack.pop()
+
+            while node != -1:
+                head[node] = chain_head
+                position[node] = current_position
+                current_position += 1
+
+                for neighbor in graph[node]:
+                    if neighbor != parent[node] and neighbor != heavy_child[node]:
+                        chain_stack.append((neighbor, neighbor))
+
+                node = heavy_child[node]
+
+        tree_size = 1
+        while tree_size < n:
+            tree_size <<= 1
+
+        segment_tree = [0] * (2 * tree_size)
+
+        for node in range(n):
+            segment_tree[tree_size + position[node]] = 1 << (ord(s[node]) - ord("a"))
+
+        for index in range(tree_size - 1, 0, -1):
+            segment_tree[index] = (
+                segment_tree[index * 2] ^ segment_tree[index * 2 + 1]
+            )
+
+        def update(index, value):
+            tree_index = tree_size + index
+            segment_tree[tree_index] = value
+            tree_index >>= 1
+
+            while tree_index:
+                segment_tree[tree_index] = (
+                    segment_tree[tree_index * 2]
+                    ^ segment_tree[tree_index * 2 + 1]
+                )
+                tree_index >>= 1
+
+        def range_query(left, right):
+            left += tree_size
+            right += tree_size
+            result = 0
+
+            while left <= right:
+                if left & 1:
+                    result ^= segment_tree[left]
+                    left += 1
+
+                if not (right & 1):
+                    result ^= segment_tree[right]
+                    right -= 1
+
+                left >>= 1
+                right >>= 1
+
+            return result
+
+        def path_query(first_node, second_node):
+            result = 0
+
+            while head[first_node] != head[second_node]:
+                if depth[head[first_node]] < depth[head[second_node]]:
+                    first_node, second_node = second_node, first_node
+
+                result ^= range_query(
+                    position[head[first_node]],
+                    position[first_node]
+                )
+                first_node = parent[head[first_node]]
+
+            left_position = position[first_node]
+            right_position = position[second_node]
+
+            if left_position > right_position:
+                left_position, right_position = right_position, left_position
+
+            return result ^ range_query(left_position, right_position)
+
+        answers = []
+
+        for query in queries:
+            query_tokens = query.split()
+
+            if query_tokens[0] == "update":
+                node = int(query_tokens[1])
+                character = query_tokens[2]
+                update(position[node], 1 << (ord(character) - ord("a")))
             else:
-                tout[v] = timer - 1
-        for k in range(1, LOG):
-            prev, cur = up[k - 1], up[k]
-            for v in range(n):
-                cur[v] = prev[prev[v]]
+                first_node = int(query_tokens[1])
+                second_node = int(query_tokens[2])
+                path_mask = path_query(first_node, second_node)
+                answers.append(
+                    path_mask == 0 or (path_mask & (path_mask - 1)) == 0
+                )
 
-        def lca(a, b):
-            if depth[a] < depth[b]:
-                a, b = b, a
-            diff = depth[a] - depth[b]
-            k = 0
-            while diff:
-                if diff & 1:
-                    a = up[k][a]
-                diff >>= 1
-                k += 1
-            if a == b:
-                return a
-            for k in range(LOG - 1, -1, -1):
-                if up[k][a] != up[k][b]:
-                    a = up[k][a]
-                    b = up[k][b]
-            return up[0][a]
-
-        # Fenwick tree over XOR: range-xor update, point query
-        bit = [0] * (n + 2)
-
-        def bit_add(i, val):
-            i += 1
-            while i <= n + 1:
-                bit[i] ^= val
-                i += i & -i
-
-        def bit_query(i):
-            i += 1
-            r = 0
-            while i > 0:
-                r ^= bit[i]
-                i -= i & -i
-            return r
-
-        def mask(x):
-            return P0[x] ^ bit_query(tin[x])
-
-        ans = []
-        for q in queries:
-            parts = q.split()
-            if parts[0] == "update":
-                u, c = int(parts[1]), ord(parts[2]) - 97
-                if chars[u] != c:
-                    delta = (1 << chars[u]) ^ (1 << c)
-                    chars[u] = c
-                    bit_add(tin[u], delta)
-                    bit_add(tout[u] + 1, delta)
-            else:
-                u, v = int(parts[1]), int(parts[2])
-                l = lca(u, v)
-                m = mask(u) ^ mask(v) ^ (1 << chars[l])
-                ans.append(m & (m - 1) == 0)
-        return ans
+        return answers
