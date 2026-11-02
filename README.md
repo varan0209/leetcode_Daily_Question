@@ -28,6 +28,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0836-rectangle-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0836-rectangle-overlap/) | Easy |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1401-circle-and-rectangle-overlapping](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
@@ -156,6 +157,7 @@ hii my name is varan
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0835-image-overlap](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0835-image-overlap/) | Medium |
 | [1140-stone-game-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1140-stone-game-ii/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -228,6 +230,7 @@ hii my name is varan
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
 | [2089-find-target-indices-after-sorting-array](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
