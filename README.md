@@ -197,6 +197,7 @@ hii my name is varan
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3116-kth-smallest-amount-with-single-denomination-combination/) | Hard |
+| [3364-minimum-positive-sum-subarray](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
@@ -279,6 +280,7 @@ hii my name is varan
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
+| [3364-minimum-positive-sum-subarray](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 | [3903-smallest-stable-index-i](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3904-smallest-stable-index-ii/) | Medium |
 ## Game Theory
@@ -314,6 +316,7 @@ hii my name is varan
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
+| [3364-minimum-positive-sum-subarray](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
 ## Segment Tree
