@@ -93,6 +93,7 @@ hii my name is varan
 | [2409-count-days-spent-together](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2409-count-days-spent-together/) | Easy |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
@@ -139,6 +140,7 @@ hii my name is varan
 | ------- | ------- |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 ## Dynamic Programming
@@ -158,6 +160,7 @@ hii my name is varan
 | [1872-stone-game-viii](https://github.com/varan0209/leetcode_Daily_Question/tree/main/1872-stone-game-viii/) | Hard |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/varan0209/leetcode_Daily_Question/tree/main/2911-minimum-changes-to-make-k-semi-palindromes/) | Hard |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3414-maximum-score-of-non-overlapping-intervals/) | Hard |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/varan0209/leetcode_Daily_Question/tree/main/3505-minimum-operations-to-make-elements-within-k-subarrays-equal/) | Hard |
